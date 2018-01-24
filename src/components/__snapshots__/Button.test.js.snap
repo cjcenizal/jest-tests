@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button is rendered 1`] = `
-<button>
+<button
+  class="myAwesomeButton"
+>
   Hello world
 </button>
+`;
+
+exports[`Button props disabled is rendered 1`] = `
+<button
+  class="myAwesomeButton"
+  disabled=""
+/>
 `;

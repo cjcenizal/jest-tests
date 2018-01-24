@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup is rendered 1`] = `
+Array [
+  <Button
+    id="save"
+    key="save"
+  />,
+  <Button
+    id="delete"
+    key="delete"
+  />,
+  <Button
+    id="cancel"
+    key="cancel"
+  />,
+  <Button
+    id="copy"
+    key="copy"
+  />,
+  <Button
+    id="edit"
+    key="edit"
+  />,
+]
+`;

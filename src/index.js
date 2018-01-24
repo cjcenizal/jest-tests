@@ -1,11 +1,11 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from './components/Button';
+import { ButtonGroup } from './components/ButtonGroup';
 
 ReactDOM.render(
   <div>
-    <Button>Sup!</Button>
+    <ButtonGroup />
   </div>,
   document.getElementById('app')
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Button = ({ children, disabled, onClick, ...rest }) => {
+export const Button = ({ children, icon, disabled, onClick, ...rest }) => {
   const onClickButton = e => {
     if (disabled) {
       return;
@@ -9,9 +9,11 @@ export const Button = ({ children, disabled, onClick, ...rest }) => {
     onClick(e);
   }
 
+  const iconElement = icon ? <span className={icon} /> : undefined;
+
   return (
-    <button disabled={disabled} onClick={onClickButton} {...rest}>
-      {children}
+    <button className="myAwesomeButton" disabled={disabled} onClick={onClickButton} {...rest}>
+      {iconElement}{children}
     </button>
   );
 };
