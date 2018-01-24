@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": [
+    // stage 3
+    "transform-object-rest-spread",
+    // stage 2
+    "transform-class-properties"
+  ]
+}
